@@ -3850,3 +3850,30 @@ File Path                         PID    Runtime      # DAGs    # Errors  Last R
 ================================================================================
 [2025-07-29T00:19:29.223+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
 [2025-07-29T00:19:29.258+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2025-07-29T00:19:44.854+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/firts_dag.py     8517  0.00s             1           0  0.13s           2025-07-29T00:19:39
+/opt/airflow/dags/fourth_dag.py                            1           0  0.16s           2025-07-29T00:19:42
+/opt/airflow/dags/seconde_dag.py   8516  0.01s             1           0  0.13s           2025-07-29T00:19:39
+/opt/airflow/dags/third.py                                 1           0  0.14s           2025-07-29T00:19:42
+================================================================================
+[2025-07-29T00:19:50.053+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-07-29T00:19:50.100+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2025-07-29T00:20:10.136+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-07-29T00:20:10.176+0000] {manager.py:729} INFO - There are 4 files in /opt/airflow/dags
+[2025-07-29T00:20:15.252+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/firts_dag.py                             1           0  0.13s           2025-07-29T00:20:11
+/opt/airflow/dags/fourth_dag.py                            1           0  0.26s           2025-07-29T00:20:14
+/opt/airflow/dags/seconde_dag.py                           1           0  0.14s           2025-07-29T00:20:11
+/opt/airflow/dags/third.py                                 1           0  0.24s           2025-07-29T00:20:14
+================================================================================
+[2025-07-29T00:20:25.973+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
