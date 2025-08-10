@@ -25819,3 +25819,879 @@ File Path                                           PID  Runtime      # DAGs    
 ================================================================================
 [2025-08-10T22:20:11.706+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
 [2025-08-10T22:20:12.243+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:20:30.354+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:20:25
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.22s           2025-08-10T22:20:27
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.22s           2025-08-10T22:20:26
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.22s           2025-08-10T22:20:26
+/opt/airflow/dags/dag_plugin_big_data.py           3706  0.01s             1           0  0.14s           2025-08-10T22:20:24
+/opt/airflow/dags/dag_pools.py                                             1           0  0.17s           2025-08-10T22:20:25
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.29s           2025-08-10T22:20:26
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.28s           2025-08-10T22:20:26
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.23s           2025-08-10T22:20:26
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.26s           2025-08-10T22:20:27
+/opt/airflow/dags/database.py                                              1           0  0.26s           2025-08-10T22:20:27
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.23s           2025-08-10T22:20:29
+/opt/airflow/dags/dataset_producer.py              3707  0.00s             1           0  0.14s           2025-08-10T22:20:24
+/opt/airflow/dags/firts_dag.py                                             1           0  0.20s           2025-08-10T22:20:27
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.23s           2025-08-10T22:20:28
+/opt/airflow/dags/hooks.py                                                 1           0  0.22s           2025-08-10T22:20:27
+/opt/airflow/dags/python_operator.py                                       1           0  0.13s           2025-08-10T22:20:24
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.15s           2025-08-10T22:20:24
+/opt/airflow/dags/sensors.py                                               1           0  0.26s           2025-08-10T22:20:28
+/opt/airflow/dags/third_dag.py                                             1           0  0.19s           2025-08-10T22:20:24
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.20s           2025-08-10T22:20:27
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.23s           2025-08-10T22:20:27
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.26s           2025-08-10T22:20:27
+/opt/airflow/dags/variaveis.py                                             1           0  0.20s           2025-08-10T22:20:26
+/opt/airflow/dags/xcom.py                                                  1           0  0.24s           2025-08-10T22:20:26
+================================================================================
+[2025-08-10T22:20:31.836+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:20:32.161+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:20:52.027+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:20:52.238+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:21:00.435+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                   3868  0.01s             1           0  0.38s           2025-08-10T22:20:55
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.22s           2025-08-10T22:20:57
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.19s           2025-08-10T22:20:56
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.22s           2025-08-10T22:20:55
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.15s           2025-08-10T22:20:57
+/opt/airflow/dags/dag_pools.py                     3869  0.01s             1           0  0.39s           2025-08-10T22:20:55
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.17s           2025-08-10T22:20:56
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.19s           2025-08-10T22:20:57
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.21s           2025-08-10T22:20:56
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.17s           2025-08-10T22:20:57
+/opt/airflow/dags/database.py                                              1           0  0.27s           2025-08-10T22:20:56
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.21s           2025-08-10T22:20:56
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.16s           2025-08-10T22:20:57
+/opt/airflow/dags/firts_dag.py                                             1           0  0.13s           2025-08-10T22:20:58
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.16s           2025-08-10T22:20:58
+/opt/airflow/dags/hooks.py                                                 1           0  0.25s           2025-08-10T22:20:56
+/opt/airflow/dags/python_operator.py                                       1           0  0.13s           2025-08-10T22:20:57
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.18s           2025-08-10T22:20:58
+/opt/airflow/dags/sensors.py                                               1           0  0.21s           2025-08-10T22:20:56
+/opt/airflow/dags/third_dag.py                                             1           0  0.20s           2025-08-10T22:20:58
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.12s           2025-08-10T22:20:57
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.20s           2025-08-10T22:20:57
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:20:57
+/opt/airflow/dags/variaveis.py                                             1           0  0.43s           2025-08-10T22:20:55
+/opt/airflow/dags/xcom.py                                                  1           0  0.20s           2025-08-10T22:20:56
+================================================================================
+[2025-08-10T22:21:12.777+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:21:13.046+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:21:30.558+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:21:28
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.24s           2025-08-10T22:21:25
+/opt/airflow/dags/dag_plugin_big_data.py           4026  0.01s             1           0  0.15s           2025-08-10T22:21:25
+/opt/airflow/dags/dag_pools.py                                             1           0  0.15s           2025-08-10T22:21:28
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.15s           2025-08-10T22:21:26
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.15s           2025-08-10T22:21:25
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/database.py                                              1           0  0.28s           2025-08-10T22:21:24
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.15s           2025-08-10T22:21:25
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.16s           2025-08-10T22:21:25
+/opt/airflow/dags/firts_dag.py                                             1           0  0.12s           2025-08-10T22:21:27
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.12s           2025-08-10T22:21:27
+/opt/airflow/dags/hooks.py                         4027  0.00s             1           0  0.23s           2025-08-10T22:21:24
+/opt/airflow/dags/python_operator.py                                       1           0  0.14s           2025-08-10T22:21:25
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.12s           2025-08-10T22:21:27
+/opt/airflow/dags/sensors.py                                               1           0  0.22s           2025-08-10T22:21:24
+/opt/airflow/dags/third_dag.py                                             1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.12s           2025-08-10T22:21:26
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.14s           2025-08-10T22:21:26
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.13s           2025-08-10T22:21:26
+/opt/airflow/dags/variaveis.py                                             1           0  0.26s           2025-08-10T22:21:25
+/opt/airflow/dags/xcom.py                                                  1           0  0.13s           2025-08-10T22:21:25
+================================================================================
+[2025-08-10T22:21:32.824+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:21:33.014+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:21:52.885+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:21:53.104+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:22:00.583+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.17s           2025-08-10T22:21:56
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.15s           2025-08-10T22:22:00
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.25s           2025-08-10T22:21:59
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.21s           2025-08-10T22:21:59
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.19s           2025-08-10T22:21:58
+/opt/airflow/dags/dag_pools.py                                             1           0  0.13s           2025-08-10T22:21:56
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.16s           2025-08-10T22:22:00
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.17s           2025-08-10T22:22:00
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.19s           2025-08-10T22:21:59
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.19s           2025-08-10T22:22:00
+/opt/airflow/dags/database.py                                              1           0  0.22s           2025-08-10T22:21:58
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.14s           2025-08-10T22:21:58
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.17s           2025-08-10T22:21:59
+/opt/airflow/dags/firts_dag.py                                             1           0  0.14s           2025-08-10T22:21:55
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.15s           2025-08-10T22:21:55
+/opt/airflow/dags/hooks.py                                                 1           0  0.20s           2025-08-10T22:21:58
+/opt/airflow/dags/python_operator.py                                       1           0  0.17s           2025-08-10T22:21:59
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.15s           2025-08-10T22:21:55
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:21:58
+/opt/airflow/dags/third_dag.py                                             1           0  0.15s           2025-08-10T22:21:55
+/opt/airflow/dags/trigger_rule_dag.py              4201  0.01s             1           0  0.14s           2025-08-10T22:21:54
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.18s           2025-08-10T22:22:00
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:22:00
+/opt/airflow/dags/variaveis.py                                             1           0  0.23s           2025-08-10T22:21:59
+/opt/airflow/dags/xcom.py                                                  1           0  0.24s           2025-08-10T22:21:59
+================================================================================
+[2025-08-10T22:22:13.146+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:22:13.583+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:22:30.821+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.23s           2025-08-10T22:22:30
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.19s           2025-08-10T22:22:29
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.18s           2025-08-10T22:22:29
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.38s           2025-08-10T22:22:28
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.13s           2025-08-10T22:22:27
+/opt/airflow/dags/dag_pools.py                                             1           0  0.25s           2025-08-10T22:22:25
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.22s           2025-08-10T22:22:29
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.18s           2025-08-10T22:22:29
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.24s           2025-08-10T22:22:29
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.19s           2025-08-10T22:22:29
+/opt/airflow/dags/database.py                                              1           0  0.21s           2025-08-10T22:22:27
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.14s           2025-08-10T22:22:27
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.20s           2025-08-10T22:22:28
+/opt/airflow/dags/firts_dag.py                                             1           0  0.17s           2025-08-10T22:22:25
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.24s           2025-08-10T22:22:30
+/opt/airflow/dags/hooks.py                                                 1           0  0.16s           2025-08-10T22:22:27
+/opt/airflow/dags/python_operator.py                                       1           0  0.34s           2025-08-10T22:22:28
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.23s           2025-08-10T22:22:25
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:22:27
+/opt/airflow/dags/third_dag.py                     4377  0.01s             1           0  0.15s           2025-08-10T22:22:25
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.17s           2025-08-10T22:22:30
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.38s           2025-08-10T22:22:30
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.39s           2025-08-10T22:22:30
+/opt/airflow/dags/variaveis.py                                             1           0  0.36s           2025-08-10T22:22:28
+/opt/airflow/dags/xcom.py                                                  1           0  0.21s           2025-08-10T22:22:29
+================================================================================
+[2025-08-10T22:22:33.342+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:22:33.591+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:22:53.492+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:22:53.794+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:23:00.948+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.30s           2025-08-10T22:22:58
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.23s           2025-08-10T22:23:00
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.31s           2025-08-10T22:23:00
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.36s           2025-08-10T22:22:59
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.21s           2025-08-10T22:22:56
+/opt/airflow/dags/dag_pools.py                                             1           0  0.30s           2025-08-10T22:23:00
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.30s           2025-08-10T22:23:00
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.23s           2025-08-10T22:23:00
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.31s           2025-08-10T22:22:59
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.31s           2025-08-10T22:23:00
+/opt/airflow/dags/database.py                                              1           0  0.24s           2025-08-10T22:22:57
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.18s           2025-08-10T22:22:57
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.27s           2025-08-10T22:22:58
+/opt/airflow/dags/firts_dag.py                                             1           0  0.60s           2025-08-10T22:22:56
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.22s           2025-08-10T22:22:54
+/opt/airflow/dags/hooks.py                                                 1           0  0.27s           2025-08-10T22:22:56
+/opt/airflow/dags/python_operator.py                                       1           0  0.24s           2025-08-10T22:22:58
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.65s           2025-08-10T22:22:56
+/opt/airflow/dags/sensors.py                                               1           0  0.20s           2025-08-10T22:22:56
+/opt/airflow/dags/third_dag.py                                             1           0  0.28s           2025-08-10T22:22:54
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.19s           2025-08-10T22:22:54
+/opt/airflow/dags/trigger_rule_dag_all_failed.py   4531  0.02s             1           0  0.15s           2025-08-10T22:22:54
+/opt/airflow/dags/trigger_rule_dag_one_failed.py   4532  0.01s             1           0  0.16s           2025-08-10T22:22:54
+/opt/airflow/dags/variaveis.py                                             1           0  0.41s           2025-08-10T22:22:59
+/opt/airflow/dags/xcom.py                                                  1           0  0.40s           2025-08-10T22:22:59
+================================================================================
+[2025-08-10T22:23:13.687+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:23:14.079+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:23:31.375+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.13s           2025-08-10T22:23:25
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.16s           2025-08-10T22:23:29
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.23s           2025-08-10T22:23:28
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.13s           2025-08-10T22:23:26
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.21s           2025-08-10T22:23:29
+/opt/airflow/dags/dag_pools.py                                             1           0  0.26s           2025-08-10T22:23:28
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.22s           2025-08-10T22:23:28
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.21s           2025-08-10T22:23:29
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.19s           2025-08-10T22:23:27
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.14s           2025-08-10T22:23:29
+/opt/airflow/dags/database.py                                              1           0  0.25s           2025-08-10T22:23:30
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.16s           2025-08-10T22:23:30
+/opt/airflow/dags/dataset_producer.py              4700  0.01s             1           0  0.18s           2025-08-10T22:23:25
+/opt/airflow/dags/firts_dag.py                                             1           0  0.17s           2025-08-10T22:23:30
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.18s           2025-08-10T22:23:29
+/opt/airflow/dags/hooks.py                                                 1           0  0.14s           2025-08-10T22:23:29
+/opt/airflow/dags/python_operator.py               4701  0.00s             1           0  0.17s           2025-08-10T22:23:25
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.16s           2025-08-10T22:23:30
+/opt/airflow/dags/sensors.py                                               1           0  0.22s           2025-08-10T22:23:30
+/opt/airflow/dags/third_dag.py                                             1           0  0.16s           2025-08-10T22:23:30
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.15s           2025-08-10T22:23:29
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.16s           2025-08-10T22:23:29
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:23:29
+/opt/airflow/dags/variaveis.py                                             1           0  0.14s           2025-08-10T22:23:26
+/opt/airflow/dags/xcom.py                                                  1           0  0.24s           2025-08-10T22:23:28
+================================================================================
+[2025-08-10T22:23:33.835+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:23:34.027+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:23:53.846+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:23:54.237+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:24:01.652+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.15s           2025-08-10T22:24:00
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.18s           2025-08-10T22:23:57
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.17s           2025-08-10T22:23:57
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.15s           2025-08-10T22:24:00
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.17s           2025-08-10T22:23:57
+/opt/airflow/dags/dag_pools.py                     4863  0.02s             1           0  0.17s           2025-08-10T22:23:56
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.28s           2025-08-10T22:23:57
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.16s           2025-08-10T22:23:57
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.15s           2025-08-10T22:24:00
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.23s           2025-08-10T22:23:57
+/opt/airflow/dags/database.py                                              1           0  0.19s           2025-08-10T22:23:58
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.16s           2025-08-10T22:23:58
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.16s           2025-08-10T22:23:58
+/opt/airflow/dags/firts_dag.py                                             1           0  0.16s           2025-08-10T22:24:00
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.17s           2025-08-10T22:23:58
+/opt/airflow/dags/hooks.py                                                 1           0  0.15s           2025-08-10T22:23:58
+/opt/airflow/dags/python_operator.py                                       1           0  0.17s           2025-08-10T22:23:59
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.14s           2025-08-10T22:24:00
+/opt/airflow/dags/sensors.py                                               1           0  0.16s           2025-08-10T22:23:58
+/opt/airflow/dags/third_dag.py                                             1           0  0.16s           2025-08-10T22:24:00
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.16s           2025-08-10T22:23:58
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.20s           2025-08-10T22:23:58
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:23:58
+/opt/airflow/dags/variaveis.py                                             1           0  0.13s           2025-08-10T22:23:59
+/opt/airflow/dags/xcom.py                          4864  0.01s             1           0  0.25s           2025-08-10T22:23:56
+================================================================================
+[2025-08-10T22:24:13.947+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:24:14.129+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:24:31.770+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.22s           2025-08-10T22:24:28
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.14s           2025-08-10T22:24:31
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.15s           2025-08-10T22:24:30
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.23s           2025-08-10T22:24:28
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.14s           2025-08-10T22:24:30
+/opt/airflow/dags/dag_pools.py                                             1           0  0.18s           2025-08-10T22:24:29
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.13s           2025-08-10T22:24:30
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.15s           2025-08-10T22:24:30
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.17s           2025-08-10T22:24:28
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.13s           2025-08-10T22:24:31
+/opt/airflow/dags/database.py                                              1           0  0.15s           2025-08-10T22:24:31
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.12s           2025-08-10T22:24:31
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.14s           2025-08-10T22:24:27
+/opt/airflow/dags/firts_dag.py                                             1           0  0.14s           2025-08-10T22:24:28
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.18s           2025-08-10T22:24:27
+/opt/airflow/dags/hooks.py                                                 1           0  0.15s           2025-08-10T22:24:31
+/opt/airflow/dags/python_operator.py                                       1           0  0.14s           2025-08-10T22:24:27
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.14s           2025-08-10T22:24:28
+/opt/airflow/dags/sensors.py                                               1           0  0.17s           2025-08-10T22:24:31
+/opt/airflow/dags/third_dag.py                                             1           0  0.18s           2025-08-10T22:24:28
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.19s           2025-08-10T22:24:27
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.13s           2025-08-10T22:24:31
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.19s           2025-08-10T22:24:27
+/opt/airflow/dags/variaveis.py                                             1           0  0.13s           2025-08-10T22:24:27
+/opt/airflow/dags/xcom.py                                                  1           0  0.14s           2025-08-10T22:24:29
+================================================================================
+[2025-08-10T22:24:34.094+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:24:34.396+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:24:54.161+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:24:54.383+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:25:01.944+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.30s           2025-08-10T22:25:01
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.16s           2025-08-10T22:25:00
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.15s           2025-08-10T22:24:59
+/opt/airflow/dags/dag_dummy.py                     5203  0.01s             1           0  0.15s           2025-08-10T22:24:56
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.23s           2025-08-10T22:24:59
+/opt/airflow/dags/dag_pools.py                                             1           0  0.21s           2025-08-10T22:24:58
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.18s           2025-08-10T22:25:00
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.14s           2025-08-10T22:24:59
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.17s           2025-08-10T22:24:56
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.16s           2025-08-10T22:25:00
+/opt/airflow/dags/database.py                                              1           0  0.17s           2025-08-10T22:24:59
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.20s           2025-08-10T22:24:59
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.25s           2025-08-10T22:25:01
+/opt/airflow/dags/firts_dag.py                                             1           0  0.15s           2025-08-10T22:24:57
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.16s           2025-08-10T22:24:56
+/opt/airflow/dags/hooks.py                                                 1           0  0.25s           2025-08-10T22:24:59
+/opt/airflow/dags/python_operator.py                                       1           0  0.26s           2025-08-10T22:25:01
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.16s           2025-08-10T22:24:57
+/opt/airflow/dags/sensors.py                                               1           0  0.14s           2025-08-10T22:24:59
+/opt/airflow/dags/third_dag.py                                             1           0  0.14s           2025-08-10T22:24:57
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.18s           2025-08-10T22:24:56
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.19s           2025-08-10T22:25:00
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.21s           2025-08-10T22:24:56
+/opt/airflow/dags/variaveis.py                     5202  0.02s             1           0  0.16s           2025-08-10T22:24:56
+/opt/airflow/dags/xcom.py                                                  1           0  0.20s           2025-08-10T22:24:58
+================================================================================
+[2025-08-10T22:25:14.264+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:25:14.552+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:25:32.656+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.17s           2025-08-10T22:25:29
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.17s           2025-08-10T22:25:29
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.19s           2025-08-10T22:25:28
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.29s           2025-08-10T22:25:29
+/opt/airflow/dags/dag_plugin_big_data.py           5377  0.01s             1           0  0.17s           2025-08-10T22:25:27
+/opt/airflow/dags/dag_pools.py                                             1           0  0.22s           2025-08-10T22:25:30
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.17s           2025-08-10T22:25:29
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.17s           2025-08-10T22:25:29
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.20s           2025-08-10T22:25:30
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.18s           2025-08-10T22:25:29
+/opt/airflow/dags/database.py                                              1           0  0.16s           2025-08-10T22:25:28
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.24s           2025-08-10T22:25:28
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.22s           2025-08-10T22:25:28
+/opt/airflow/dags/firts_dag.py                                             1           0  0.13s           2025-08-10T22:25:31
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.16s           2025-08-10T22:25:31
+/opt/airflow/dags/hooks.py                         5378  0.00s             1           0  0.19s           2025-08-10T22:25:27
+/opt/airflow/dags/python_operator.py                                       1           0  0.20s           2025-08-10T22:25:28
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.13s           2025-08-10T22:25:31
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:25:28
+/opt/airflow/dags/third_dag.py                                             1           0  0.13s           2025-08-10T22:25:31
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.18s           2025-08-10T22:25:31
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.30s           2025-08-10T22:25:30
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.17s           2025-08-10T22:25:31
+/opt/airflow/dags/variaveis.py                                             1           0  0.18s           2025-08-10T22:25:29
+/opt/airflow/dags/xcom.py                                                  1           0  0.14s           2025-08-10T22:25:31
+================================================================================
+[2025-08-10T22:25:34.333+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:25:34.545+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:25:54.967+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:25:55.315+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:26:02.877+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.16s           2025-08-10T22:26:02
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.15s           2025-08-10T22:25:57
+/opt/airflow/dags/dag_default_args.py              5544  0.01s             1           0  0.16s           2025-08-10T22:25:57
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.27s           2025-08-10T22:26:02
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.16s           2025-08-10T22:26:00
+/opt/airflow/dags/dag_pools.py                                             1           0  0.19s           2025-08-10T22:25:59
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.14s           2025-08-10T22:25:57
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.14s           2025-08-10T22:25:57
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.19s           2025-08-10T22:25:59
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.17s           2025-08-10T22:25:57
+/opt/airflow/dags/database.py                                              1           0  0.16s           2025-08-10T22:26:02
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.13s           2025-08-10T22:26:02
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.19s           2025-08-10T22:26:02
+/opt/airflow/dags/firts_dag.py                                             1           0  0.13s           2025-08-10T22:25:59
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.17s           2025-08-10T22:25:59
+/opt/airflow/dags/hooks.py                                                 1           0  0.16s           2025-08-10T22:26:00
+/opt/airflow/dags/python_operator.py                                       1           0  0.22s           2025-08-10T22:26:02
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.13s           2025-08-10T22:25:59
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:26:02
+/opt/airflow/dags/third_dag.py                                             1           0  0.18s           2025-08-10T22:25:59
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.14s           2025-08-10T22:25:59
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.14s           2025-08-10T22:25:58
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.17s           2025-08-10T22:25:59
+/opt/airflow/dags/variaveis.py                                             1           0  0.24s           2025-08-10T22:26:02
+/opt/airflow/dags/xcom.py                                                  1           0  0.16s           2025-08-10T22:25:59
+================================================================================
+[2025-08-10T22:26:15.827+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:26:16.155+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:26:33.414+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:26:31
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.15s           2025-08-10T22:26:32
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.18s           2025-08-10T22:26:31
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.13s           2025-08-10T22:26:31
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.16s           2025-08-10T22:26:30
+/opt/airflow/dags/dag_pools.py                     5707  0.01s             1           0  0.17s           2025-08-10T22:26:27
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.19s           2025-08-10T22:26:32
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.18s           2025-08-10T22:26:31
+/opt/airflow/dags/dag_send_email.py                5708  0.00s             1           0  0.16s           2025-08-10T22:26:27
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.14s           2025-08-10T22:26:32
+/opt/airflow/dags/database.py                                              1           0  0.17s           2025-08-10T22:26:31
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.15s           2025-08-10T22:26:31
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.17s           2025-08-10T22:26:31
+/opt/airflow/dags/firts_dag.py                                             1           0  0.20s           2025-08-10T22:26:29
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.24s           2025-08-10T22:26:28
+/opt/airflow/dags/hooks.py                                                 1           0  0.19s           2025-08-10T22:26:30
+/opt/airflow/dags/python_operator.py                                       1           0  0.15s           2025-08-10T22:26:31
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.34s           2025-08-10T22:26:28
+/opt/airflow/dags/sensors.py                                               1           0  0.14s           2025-08-10T22:26:31
+/opt/airflow/dags/third_dag.py                                             1           0  0.32s           2025-08-10T22:26:28
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.15s           2025-08-10T22:26:28
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.18s           2025-08-10T22:26:32
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.16s           2025-08-10T22:26:28
+/opt/airflow/dags/variaveis.py                                             1           0  0.14s           2025-08-10T22:26:31
+/opt/airflow/dags/xcom.py                                                  1           0  0.16s           2025-08-10T22:26:28
+================================================================================
+[2025-08-10T22:26:36.318+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:26:36.637+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:26:56.361+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:26:56.588+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:27:03.524+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.21s           2025-08-10T22:27:00
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.20s           2025-08-10T22:27:02
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.16s           2025-08-10T22:27:01
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.29s           2025-08-10T22:27:01
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.25s           2025-08-10T22:26:58
+/opt/airflow/dags/dag_pools.py                                             1           0  0.21s           2025-08-10T22:27:01
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.19s           2025-08-10T22:27:02
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.16s           2025-08-10T22:27:01
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.17s           2025-08-10T22:27:01
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.27s           2025-08-10T22:27:02
+/opt/airflow/dags/database.py                                              1           0  0.20s           2025-08-10T22:27:00
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.19s           2025-08-10T22:27:00
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.21s           2025-08-10T22:27:00
+/opt/airflow/dags/firts_dag.py                                             1           0  0.26s           2025-08-10T22:26:57
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.30s           2025-08-10T22:27:03
+/opt/airflow/dags/hooks.py                                                 1           0  0.25s           2025-08-10T22:26:58
+/opt/airflow/dags/python_operator.py                                       1           0  0.20s           2025-08-10T22:27:00
+/opt/airflow/dags/seconde_dag.py                   5880  0.01s             1           0  0.22s           2025-08-10T22:26:57
+/opt/airflow/dags/sensors.py                                               1           0  0.18s           2025-08-10T22:27:00
+/opt/airflow/dags/third_dag.py                                             1           0  0.39s           2025-08-10T22:27:03
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.21s           2025-08-10T22:27:03
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.21s           2025-08-10T22:27:02
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.22s           2025-08-10T22:27:03
+/opt/airflow/dags/variaveis.py                                             1           0  0.29s           2025-08-10T22:27:00
+/opt/airflow/dags/xcom.py                                                  1           0  0.23s           2025-08-10T22:27:02
+================================================================================
+[2025-08-10T22:27:16.391+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:27:16.906+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:27:34.013+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.21s           2025-08-10T22:27:29
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.31s           2025-08-10T22:27:31
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.19s           2025-08-10T22:27:30
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.27s           2025-08-10T22:27:30
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.21s           2025-08-10T22:27:31
+/opt/airflow/dags/dag_pools.py                                             1           0  0.24s           2025-08-10T22:27:30
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.17s           2025-08-10T22:27:31
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.23s           2025-08-10T22:27:31
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.22s           2025-08-10T22:27:30
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.22s           2025-08-10T22:27:31
+/opt/airflow/dags/database.py                      6048  0.05s             1           0  0.33s           2025-08-10T22:27:28
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.17s           2025-08-10T22:27:28
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.18s           2025-08-10T22:27:28
+/opt/airflow/dags/firts_dag.py                                             1           0  0.28s           2025-08-10T22:27:33
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.32s           2025-08-10T22:27:32
+/opt/airflow/dags/hooks.py                                                 1           0  0.21s           2025-08-10T22:27:32
+/opt/airflow/dags/python_operator.py                                       1           0  0.27s           2025-08-10T22:27:29
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.28s           2025-08-10T22:27:33
+/opt/airflow/dags/sensors.py                       6049  0.03s             1           0  0.31s           2025-08-10T22:27:28
+/opt/airflow/dags/third_dag.py                                             1           0  0.27s           2025-08-10T22:27:32
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.39s           2025-08-10T22:27:32
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.23s           2025-08-10T22:27:31
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.35s           2025-08-10T22:27:32
+/opt/airflow/dags/variaveis.py                                             1           0  0.26s           2025-08-10T22:27:30
+/opt/airflow/dags/xcom.py                                                  1           0  0.18s           2025-08-10T22:27:30
+================================================================================
+[2025-08-10T22:27:36.513+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:27:36.843+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:27:56.642+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:27:56.884+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:28:04.829+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.17s           2025-08-10T22:28:02
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.34s           2025-08-10T22:28:00
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.16s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_dummy.py                     6214  0.00s             1           0  0.15s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_plugin_big_data.py           6213  0.01s             1           0  0.14s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_pools.py                                             1           0  0.16s           2025-08-10T22:28:03
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.18s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.18s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.17s           2025-08-10T22:27:59
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.21s           2025-08-10T22:28:00
+/opt/airflow/dags/database.py                                              1           0  0.22s           2025-08-10T22:28:02
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.15s           2025-08-10T22:28:02
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.23s           2025-08-10T22:28:02
+/opt/airflow/dags/firts_dag.py                                             1           0  0.19s           2025-08-10T22:28:01
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.20s           2025-08-10T22:28:00
+/opt/airflow/dags/hooks.py                                                 1           0  0.27s           2025-08-10T22:28:00
+/opt/airflow/dags/python_operator.py                                       1           0  0.18s           2025-08-10T22:28:02
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.20s           2025-08-10T22:28:01
+/opt/airflow/dags/sensors.py                                               1           0  0.23s           2025-08-10T22:28:02
+/opt/airflow/dags/third_dag.py                                             1           0  0.21s           2025-08-10T22:28:00
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.19s           2025-08-10T22:28:00
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.33s           2025-08-10T22:28:00
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.19s           2025-08-10T22:28:00
+/opt/airflow/dags/variaveis.py                                             1           0  0.13s           2025-08-10T22:28:03
+/opt/airflow/dags/xcom.py                                                  1           0  0.18s           2025-08-10T22:27:59
+================================================================================
+[2025-08-10T22:28:16.703+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:28:17.079+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:28:35.561+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.18s           2025-08-10T22:28:31
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.13s           2025-08-10T22:28:34
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.17s           2025-08-10T22:28:33
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.16s           2025-08-10T22:28:32
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.13s           2025-08-10T22:28:32
+/opt/airflow/dags/dag_pools.py                                             1           0  0.19s           2025-08-10T22:28:31
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.15s           2025-08-10T22:28:34
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.14s           2025-08-10T22:28:34
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.35s           2025-08-10T22:28:33
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.15s           2025-08-10T22:28:34
+/opt/airflow/dags/database.py                      6381  0.01s             1           0  0.26s           2025-08-10T22:28:30
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.19s           2025-08-10T22:28:30
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.16s           2025-08-10T22:28:30
+/opt/airflow/dags/firts_dag.py                                             1           0  0.26s           2025-08-10T22:28:30
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.18s           2025-08-10T22:28:29
+/opt/airflow/dags/hooks.py                                                 1           0  0.41s           2025-08-10T22:28:33
+/opt/airflow/dags/python_operator.py                                       1           0  0.21s           2025-08-10T22:28:31
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.25s           2025-08-10T22:28:30
+/opt/airflow/dags/sensors.py                       6382  0.00s             1           0  0.22s           2025-08-10T22:28:30
+/opt/airflow/dags/third_dag.py                                             1           0  0.19s           2025-08-10T22:28:30
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.30s           2025-08-10T22:28:29
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.13s           2025-08-10T22:28:34
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.34s           2025-08-10T22:28:29
+/opt/airflow/dags/variaveis.py                                             1           0  0.16s           2025-08-10T22:28:31
+/opt/airflow/dags/xcom.py                                                  1           0  0.25s           2025-08-10T22:28:33
+================================================================================
+[2025-08-10T22:28:36.734+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:28:36.999+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:28:56.861+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:28:57.371+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:29:05.713+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.18s           2025-08-10T22:29:05
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.19s           2025-08-10T22:29:04
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.14s           2025-08-10T22:29:03
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.17s           2025-08-10T22:29:01
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.18s           2025-08-10T22:29:01
+/opt/airflow/dags/dag_pools.py                                             1           0  0.14s           2025-08-10T22:29:05
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.16s           2025-08-10T22:29:03
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.18s           2025-08-10T22:29:03
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.21s           2025-08-10T22:29:03
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.14s           2025-08-10T22:29:03
+/opt/airflow/dags/database.py                                              1           0  0.16s           2025-08-10T22:29:04
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.15s           2025-08-10T22:29:04
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.13s           2025-08-10T22:29:04
+/opt/airflow/dags/firts_dag.py                     6551  0.01s             1           0  0.14s           2025-08-10T22:29:00
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.17s           2025-08-10T22:29:05
+/opt/airflow/dags/hooks.py                                                 1           0  0.16s           2025-08-10T22:29:02
+/opt/airflow/dags/python_operator.py                                       1           0  0.19s           2025-08-10T22:29:04
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.16s           2025-08-10T22:29:05
+/opt/airflow/dags/sensors.py                                               1           0  0.14s           2025-08-10T22:29:04
+/opt/airflow/dags/third_dag.py                                             1           0  0.19s           2025-08-10T22:29:05
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.12s           2025-08-10T22:29:04
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.15s           2025-08-10T22:29:04
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:29:04
+/opt/airflow/dags/variaveis.py                                             1           0  0.16s           2025-08-10T22:29:05
+/opt/airflow/dags/xcom.py                                                  1           0  0.19s           2025-08-10T22:29:03
+================================================================================
+[2025-08-10T22:29:16.871+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:29:17.087+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:29:35.914+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.18s           2025-08-10T22:29:34
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.18s           2025-08-10T22:29:34
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.18s           2025-08-10T22:29:33
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.23s           2025-08-10T22:29:35
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.21s           2025-08-10T22:29:35
+/opt/airflow/dags/dag_pools.py                                             1           0  0.16s           2025-08-10T22:29:34
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.15s           2025-08-10T22:29:34
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.20s           2025-08-10T22:29:34
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.17s           2025-08-10T22:29:31
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.22s           2025-08-10T22:29:34
+/opt/airflow/dags/database.py                                              1           0  0.15s           2025-08-10T22:29:32
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.20s           2025-08-10T22:29:33
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.18s           2025-08-10T22:29:34
+/opt/airflow/dags/firts_dag.py                                             1           0  0.17s           2025-08-10T22:29:29
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.28s           2025-08-10T22:29:35
+/opt/airflow/dags/hooks.py                                                 1           0  0.17s           2025-08-10T22:29:30
+/opt/airflow/dags/python_operator.py                                       1           0  0.17s           2025-08-10T22:29:34
+/opt/airflow/dags/seconde_dag.py                   6709  0.01s             1           0  0.14s           2025-08-10T22:29:29
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:29:32
+/opt/airflow/dags/third_dag.py                                             1           0  0.28s           2025-08-10T22:29:35
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.21s           2025-08-10T22:29:35
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.19s           2025-08-10T22:29:35
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.21s           2025-08-10T22:29:35
+/opt/airflow/dags/variaveis.py                                             1           0  0.19s           2025-08-10T22:29:34
+/opt/airflow/dags/xcom.py                                                  1           0  0.14s           2025-08-10T22:29:31
+================================================================================
+[2025-08-10T22:29:37.382+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:29:37.693+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:29:57.431+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:29:57.705+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:30:06.025+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.21s           2025-08-10T22:30:02
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.38s           2025-08-10T22:30:04
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.18s           2025-08-10T22:30:03
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.18s           2025-08-10T22:30:03
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.18s           2025-08-10T22:30:02
+/opt/airflow/dags/dag_pools.py                                             1           0  0.17s           2025-08-10T22:30:03
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.25s           2025-08-10T22:30:03
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.21s           2025-08-10T22:30:03
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.19s           2025-08-10T22:30:01
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.40s           2025-08-10T22:30:04
+/opt/airflow/dags/database.py                                              1           0  0.21s           2025-08-10T22:30:01
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.19s           2025-08-10T22:30:02
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.25s           2025-08-10T22:30:02
+/opt/airflow/dags/firts_dag.py                                             1           0  0.17s           2025-08-10T22:30:05
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.27s           2025-08-10T22:30:04
+/opt/airflow/dags/hooks.py                                                 1           0  0.24s           2025-08-10T22:30:03
+/opt/airflow/dags/python_operator.py                                       1           0  0.22s           2025-08-10T22:30:02
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.18s           2025-08-10T22:30:04
+/opt/airflow/dags/sensors.py                                               1           0  0.16s           2025-08-10T22:30:01
+/opt/airflow/dags/third_dag.py                                             1           0  0.23s           2025-08-10T22:30:04
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.27s           2025-08-10T22:30:04
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.18s           2025-08-10T22:30:04
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.23s           2025-08-10T22:30:04
+/opt/airflow/dags/variaveis.py                                             1           0  0.19s           2025-08-10T22:30:03
+/opt/airflow/dags/xcom.py                                                  1           0  0.17s           2025-08-10T22:30:01
+================================================================================
+[2025-08-10T22:30:18.053+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:30:18.376+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:30:36.093+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:30:30
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.27s           2025-08-10T22:30:31
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.26s           2025-08-10T22:30:31
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.26s           2025-08-10T22:30:31
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.32s           2025-08-10T22:30:35
+/opt/airflow/dags/dag_pools.py                                             1           0  0.22s           2025-08-10T22:30:30
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.30s           2025-08-10T22:30:31
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.26s           2025-08-10T22:30:31
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.18s           2025-08-10T22:30:30
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.28s           2025-08-10T22:30:31
+/opt/airflow/dags/database.py                      7044  0.10s             1           0  0.26s           2025-08-10T22:30:29
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.23s           2025-08-10T22:30:30
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.24s           2025-08-10T22:30:30
+/opt/airflow/dags/firts_dag.py                                             1           0  0.16s           2025-08-10T22:30:33
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.24s           2025-08-10T22:30:32
+/opt/airflow/dags/hooks.py                                                 1           0  0.39s           2025-08-10T22:30:36
+/opt/airflow/dags/python_operator.py                                       1           0  0.25s           2025-08-10T22:30:30
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.21s           2025-08-10T22:30:33
+/opt/airflow/dags/sensors.py                       7045  0.02s             1           0  0.21s           2025-08-10T22:30:30
+/opt/airflow/dags/third_dag.py                                             1           0  0.19s           2025-08-10T22:30:32
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.26s           2025-08-10T22:30:32
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.23s           2025-08-10T22:30:32
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.22s           2025-08-10T22:30:32
+/opt/airflow/dags/variaveis.py                                             1           0  0.22s           2025-08-10T22:30:31
+/opt/airflow/dags/xcom.py                                                  1           0  0.21s           2025-08-10T22:30:30
+================================================================================
+[2025-08-10T22:30:38.199+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:30:38.401+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:30:58.624+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:30:59.027+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:31:06.115+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:31:05
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.15s           2025-08-10T22:31:01
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.14s           2025-08-10T22:31:00
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.13s           2025-08-10T22:31:06
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.14s           2025-08-10T22:31:04
+/opt/airflow/dags/dag_pools.py                                             1           0  0.25s           2025-08-10T22:31:05
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.14s           2025-08-10T22:31:00
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.13s           2025-08-10T22:31:00
+/opt/airflow/dags/dag_send_email.py                7211  0.01s             1           0  0.22s           2025-08-10T22:31:00
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.16s           2025-08-10T22:31:00
+/opt/airflow/dags/database.py                                              1           0  0.15s           2025-08-10T22:31:05
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.14s           2025-08-10T22:31:05
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.19s           2025-08-10T22:31:05
+/opt/airflow/dags/firts_dag.py                                             1           0  0.16s           2025-08-10T22:31:01
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.15s           2025-08-10T22:31:01
+/opt/airflow/dags/hooks.py                                                 1           0  0.15s           2025-08-10T22:31:05
+/opt/airflow/dags/python_operator.py                                       1           0  0.15s           2025-08-10T22:31:05
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.14s           2025-08-10T22:31:01
+/opt/airflow/dags/sensors.py                                               1           0  0.16s           2025-08-10T22:31:05
+/opt/airflow/dags/third_dag.py                                             1           0  0.19s           2025-08-10T22:31:01
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.14s           2025-08-10T22:31:01
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.15s           2025-08-10T22:31:01
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.20s           2025-08-10T22:31:01
+/opt/airflow/dags/variaveis.py                                             1           0  0.14s           2025-08-10T22:31:06
+/opt/airflow/dags/xcom.py                          7212  0.01s             1           0  0.20s           2025-08-10T22:31:00
+================================================================================
+[2025-08-10T22:31:18.649+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:31:18.951+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:31:36.306+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.16s           2025-08-10T22:31:34
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.14s           2025-08-10T22:31:30
+/opt/airflow/dags/dag_default_args.py              7377  0.01s             1           0  0.16s           2025-08-10T22:31:30
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.14s           2025-08-10T22:31:35
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.17s           2025-08-10T22:31:33
+/opt/airflow/dags/dag_pools.py                                             1           0  0.18s           2025-08-10T22:31:34
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.13s           2025-08-10T22:31:30
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.17s           2025-08-10T22:31:30
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.35s           2025-08-10T22:31:36
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.15s           2025-08-10T22:31:30
+/opt/airflow/dags/database.py                                              1           0  0.19s           2025-08-10T22:31:33
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.16s           2025-08-10T22:31:34
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.17s           2025-08-10T22:31:34
+/opt/airflow/dags/firts_dag.py                                             1           0  0.13s           2025-08-10T22:31:31
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.12s           2025-08-10T22:31:31
+/opt/airflow/dags/hooks.py                                                 1           0  0.17s           2025-08-10T22:31:33
+/opt/airflow/dags/python_operator.py                                       1           0  0.15s           2025-08-10T22:31:34
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.17s           2025-08-10T22:31:31
+/opt/airflow/dags/sensors.py                                               1           0  0.16s           2025-08-10T22:31:34
+/opt/airflow/dags/third_dag.py                                             1           0  0.14s           2025-08-10T22:31:31
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.13s           2025-08-10T22:31:31
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.13s           2025-08-10T22:31:31
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.15s           2025-08-10T22:31:31
+/opt/airflow/dags/variaveis.py                                             1           0  0.16s           2025-08-10T22:31:34
+/opt/airflow/dags/xcom.py                                                  1           0  0.32s           2025-08-10T22:31:36
+================================================================================
+[2025-08-10T22:31:39.190+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:31:39.628+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:31:59.366+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:31:59.559+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:32:06.332+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.23s           2025-08-10T22:32:04
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.25s           2025-08-10T22:32:06
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.28s           2025-08-10T22:32:05
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.17s           2025-08-10T22:32:04
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.14s           2025-08-10T22:32:02
+/opt/airflow/dags/dag_pools.py                                             1           0  0.21s           2025-08-10T22:32:04
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.34s           2025-08-10T22:32:06
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.26s           2025-08-10T22:32:05
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.25s           2025-08-10T22:32:05
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.35s           2025-08-10T22:32:06
+/opt/airflow/dags/database.py                                              1           0  0.17s           2025-08-10T22:32:02
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.12s           2025-08-10T22:32:03
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.21s           2025-08-10T22:32:04
+/opt/airflow/dags/firts_dag.py                                             1           0  0.19s           2025-08-10T22:32:00
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.16s           2025-08-10T22:32:00
+/opt/airflow/dags/hooks.py                                                 1           0  0.16s           2025-08-10T22:32:02
+/opt/airflow/dags/python_operator.py                                       1           0  0.22s           2025-08-10T22:32:04
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.14s           2025-08-10T22:32:00
+/opt/airflow/dags/sensors.py                                               1           0  0.15s           2025-08-10T22:32:02
+/opt/airflow/dags/third_dag.py                                             1           0  0.18s           2025-08-10T22:32:00
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.18s           2025-08-10T22:32:00
+/opt/airflow/dags/trigger_rule_dag_all_failed.py   7548  0.01s             1           0  0.18s           2025-08-10T22:31:59
+/opt/airflow/dags/trigger_rule_dag_one_failed.py   7549  0.01s             1           0  0.17s           2025-08-10T22:32:00
+/opt/airflow/dags/variaveis.py                                             1           0  0.21s           2025-08-10T22:32:04
+/opt/airflow/dags/xcom.py                                                  1           0  0.28s           2025-08-10T22:32:05
+================================================================================
+[2025-08-10T22:32:19.438+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:32:19.847+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:32:36.483+0000] {manager.py:854} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_branchs.py                                           1           0  0.19s           2025-08-10T22:32:32
+/opt/airflow/dags/dag_complexa.py                                          1           0  0.16s           2025-08-10T22:32:35
+/opt/airflow/dags/dag_default_args.py                                      1           0  0.31s           2025-08-10T22:32:33
+/opt/airflow/dags/dag_dummy.py                                             1           0  0.29s           2025-08-10T22:32:33
+/opt/airflow/dags/dag_plugin_big_data.py                                   1           0  0.15s           2025-08-10T22:32:35
+/opt/airflow/dags/dag_pools.py                                             1           0  0.32s           2025-08-10T22:32:32
+/opt/airflow/dags/dag_run_dag.py                                           1           0  0.23s           2025-08-10T22:32:34
+/opt/airflow/dags/dag_run_dag_1.py                                         1           0  0.40s           2025-08-10T22:32:34
+/opt/airflow/dags/dag_send_email.py                                        1           0  0.38s           2025-08-10T22:32:33
+/opt/airflow/dags/dag_task_group.py                                        1           0  0.25s           2025-08-10T22:32:34
+/opt/airflow/dags/database.py                                              1           0  0.31s           2025-08-10T22:32:31
+/opt/airflow/dags/dataset_consumer.py                                      1           0  0.20s           2025-08-10T22:32:31
+/opt/airflow/dags/dataset_producer.py                                      1           0  0.20s           2025-08-10T22:32:32
+/opt/airflow/dags/firts_dag.py                     7712  0.01s             1           0  0.15s           2025-08-10T22:32:30
+/opt/airflow/dags/fourth_dag.py                                            1           0  0.34s           2025-08-10T22:32:36
+/opt/airflow/dags/hooks.py                                                 1           0  0.33s           2025-08-10T22:32:31
+/opt/airflow/dags/python_operator.py                                       1           0  0.21s           2025-08-10T22:32:32
+/opt/airflow/dags/seconde_dag.py                                           1           0  0.23s           2025-08-10T22:32:36
+/opt/airflow/dags/sensors.py                                               1           0  0.21s           2025-08-10T22:32:31
+/opt/airflow/dags/third_dag.py                                             1           0  0.21s           2025-08-10T22:32:36
+/opt/airflow/dags/trigger_rule_dag.py                                      1           0  0.25s           2025-08-10T22:32:35
+/opt/airflow/dags/trigger_rule_dag_all_failed.py                           1           0  0.18s           2025-08-10T22:32:35
+/opt/airflow/dags/trigger_rule_dag_one_failed.py                           1           0  0.25s           2025-08-10T22:32:35
+/opt/airflow/dags/variaveis.py                                             1           0  0.36s           2025-08-10T22:32:32
+/opt/airflow/dags/xcom.py                                                  1           0  0.34s           2025-08-10T22:32:33
+================================================================================
+[2025-08-10T22:32:39.475+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:32:39.646+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
+[2025-08-10T22:32:59.711+0000] {manager.py:726} INFO - Searching for files in /opt/airflow/dags
+[2025-08-10T22:33:00.189+0000] {manager.py:729} INFO - There are 25 files in /opt/airflow/dags
